@@ -1,3 +1,75 @@
-body {
-    background-color: brown;
+/*--акцент синий #2196F3 ---*/
+/*--основной цвет  #212121---*/
+/*--белый #FFFFFF---*/
+/*--вторичный цвет серый #757575 ---*/
+/*--вторичный цвет фона #F5F4FA ---*/
+
+:root{
+   --main-text-color:#212121;
+   --blue-color:#2196F3;
+   --white-color:#FFFFFF;
 }
+
+body {
+   background-color: white;
+   color: var(--main-text-color);
+}
+.list{
+   list-style: none;
+   }
+.site-nav .link,
+.contact-nav .link
+ {
+   color:var(--main-text-color) ;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact-nav .link:hover,
+.contact-nav .link:focus
+{
+   color:var(--blue-color);
+}
+.site-nav .link.current{
+   color:var(--blue-color) ;
+}
+
+.section{
+   color: var(--main-text-color);
+}
+.section-title{
+   color: var(--main-text-color);
+}
+
+/* hero*/
+.hero-title {
+   color:var(--white-color);
+
+}
+.hero {
+   background-color: #2F303A;
+}
+.details .title{
+   color: var(--main-text-color);
+}
+.details .about{
+color: #757575;
+}
+/* button*/
+
+.button {
+   color:var(--white-color) ;
+   background-color:var(--blue-color);
+   cursor: pointer;
+}
+.visually-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+ }
