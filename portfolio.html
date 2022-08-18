@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header>
       <nav>
-        <span style="color:var(--blue-color)">Web</span>Studio
+        <span class="logo"style="color:var(--blue-color)">Web</span><span class="logo">Studio</span>
         <ul class="site-nav list">
           <li><a href="./index.html" class="link">Студія</a></li>
           <li><a href="./portfolio.html" class="link current">Потрфоліо</a></li>
@@ -23,14 +26,34 @@
         </ul>
     </header>
     <main>
+       <h1 class="visually-hidden"> заголовок портфоліо</h1>
+       <ul class="list">
+        <li><button class="button-portfolio" type="button">Усі</button></li>
+        <li><button class="button-portfolio" type="button">Веб-сайти</button></li>
+        <li><button class="button-portfolio" type="button">Додатки</button></li>
+        <li><button class="button-portfolio" type="button">Дизайн</button></li>
+        <li><button class="button-portfolio" type="button">Маркетинг</button></li>
+       </ul>
+      <ul class="porf-nav list">
+        <li>
+          <a class="link" href="https://www.edu.goit.global/uk/learn/6180822/845990/845999/homework">
+          <img src="" alt="" >
+          <H2 class="link">bgfdhbf</H2>
+          <p>gfrdhrdh</p>
+          </a>
+        </li>
+      </ul>
+
+
+
     </main>
     <footer>
-        <span style="color:var(--blue-color)">Web</span>Studio
+      <span class="logo"style="color:var(--blue-color)">Web</span><span class="logo">Studio</span>
         <address>
         <ul>
-          <li><a href="https://goo.gl/maps/srSNwpNVW98ARK6E7">м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a href="mailto:into@devstudio.com">into@devstudio.com</a></li>
-          <li><a href="tel:+380961111">+38 096 111 11 11</a></li>
+          <li><a class="adress-link" href="https://goo.gl/maps/srSNwpNVW98ARK6E7">м. Київ, пр-т Лесі Українки, 26</a></li>
+          <li><a class="adress-link" href="mailto:into@devstudio.com">into@devstudio.com</a></li>
+          <li><a class="adress-link" href="tel:+380961111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>

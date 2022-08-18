@@ -8,12 +8,21 @@
    --main-text-color:#212121;
    --blue-color:#2196F3;
    --white-color:#FFFFFF;
+   --grey-color:#757575;
 }
 
 body {
    background-color: white;
    color: var(--main-text-color);
+   font-family: 'Roboto',sans-serif;
+   letter-spacing: 0.03em;
 }
+.logo {
+   font-family: 'Raleway';
+   font-weight: 700;
+   font-size: 26px;
+   line-height:1.19;
+   }
 .list{
    list-style: none;
    }
@@ -21,7 +30,13 @@ body {
 .contact-nav .link
  {
    color:var(--main-text-color) ;
-}
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 14px;
+   line-height:1.14;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+   }
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contact-nav .link:hover,
@@ -38,28 +53,53 @@ body {
 }
 .section-title{
    color: var(--main-text-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height:1.17;
+   text-align: center;
 }
 
 /* hero*/
 .hero-title {
    color:var(--white-color);
-
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 44px;
+   line-height:1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
 }
 .hero {
    background-color: #2F303A;
 }
 .details .title{
    color: var(--main-text-color);
+   font-weight: 700;
+   font-size: 14px;
+   line-height:1.14;
+   text-transform: uppercase;
 }
 .details .about{
-color: #757575;
+   color: var(--grey-color);
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
 }
 /* button*/
 
 .button {
+   font-family: inherit;
    color:var(--white-color) ;
    background-color:var(--blue-color);
    cursor: pointer;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.85;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
 }
 .visually-hidden {
    position: absolute;
@@ -73,3 +113,16 @@ color: #757575;
    clip-path: inset(50%);
    margin: -1px;
  }
+ .button-portfolio:hover,
+ .button-portfolio:focus
+  {
+   color:var(--white-color) ;
+   background-color:var(--blue-color);
+   }
+   .portf-nav .link
+ {
+   color:var(--main-text-color)}
+
+   .adress-link {
+text-decoration: none;
+   }
