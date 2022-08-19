@@ -10,11 +10,8 @@
    --white-color:#FFFFFF;
    --grey-color:#757575;
    --footer-hero-color:#2F303A;
-   --second-backgraund-color:#F5F4FA;
-
-:    
+   --second-backgraund-color:#F5F4FA; 
 }
-
 body {
    background-color: white;
    color: var(--main-text-color);
@@ -27,7 +24,6 @@ body {
    font-size: 26px;
    line-height:1.19;
    color:var(--blue-color)
-
    }
 .list{
    list-style: none;
@@ -53,7 +49,6 @@ body {
 .site-nav .link.current{
    color:var(--blue-color) ;
 }
-
 .section{
    color: var(--main-text-color);
 }
@@ -93,7 +88,6 @@ body {
    line-height: 1.71;
 }
 /* button*/
-
 .button {
    font-family: inherit;
    color:var(--white-color) ;
@@ -132,13 +126,13 @@ body {
  .button-portfolio:focus
   {
    color:var(--white-color) ;
-   background-color:var(--blue-color);
-      }
-   .portf-nav .link
+   background-color:var(--blue-color)
+  }
+ .portf-nav .link
  {
-   color:var(--main-text-color)}
-
-   .adress-link {
+   color:var(--main-text-color)
+ }
+ .adress-link {
     text-decoration: none;
     color:var(--white-color);
     font-style: normal;
@@ -176,5 +170,5 @@ body {
    font-size: 16px;
    line-height: 19px;
    text-align: center;
-   color:var(--grey-color);
+   
 }
