@@ -152,23 +152,26 @@ body {
       font-weight: 700;
       font-size: 18px;
       line-height: 2;
-      letter-spacing: 0.06em;
+      letter-spacing: 0.06em
    }
    .portfolio-list {
      font-size: 16px;
      line-height: 1.88;
-     color:var(--grey-color);
+     color:var(--grey-color)
    }
-
-.team-name {
+.team .name {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.19;
-   text-align: center;
+   text-align: center
 }
-.team-title {
+.team .title {
    font-size: 16px;
-   line-height: 19px;
-   text-align: center;
-   
+   line-height: 1.19;
+   text-align: center
 }
+
+.team{
+   background-color: var(--white-color)
+}
+
